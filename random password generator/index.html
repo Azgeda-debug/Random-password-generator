@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+        <h4 for="password" class="password-title">Your safe password:</h4>
+        <p type="input" class="password-input"></p>
+        <div class="password-strength-content">
+            <p class="password-strenght">password strength</p>
+            <hr class="password-strenght-down">
+            <hr class="password-strenght-up">
+        </div>
+        <input type="range" min="1" max="20" class="how-many-sings">
+        <p class="signs">Password length</p>
+        <button class="password-generate">Generate</button>
+        <button data-info="What is a safe password? Using a mixture of lowercase and capital letters, numbers and symbols. Passwords are stronger the longer they are." class="password-info">?</button>
+    <script src="main.js"></script>
+</body>
+</html>
